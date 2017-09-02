@@ -11,5 +11,8 @@
     "installer-paths": {
       "plugins/{$name}": ["type:majima-plugin"]
     }
+  },
+  "require": {
+    "composer/installers": "~1.0"
   }
 }
