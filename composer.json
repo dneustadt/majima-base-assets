@@ -7,6 +7,9 @@
   "license": "MIT",
   "type": "majima-plugin",
   "extra": {
-    "installer-name": "MajimaBaseAssets"
+    "installer-name": "MajimaBaseAssets",
+    "installer-paths": {
+      "plugins/{$name}": ["type:majima-plugin"]
+    }
   }
 }
