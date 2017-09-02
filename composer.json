@@ -1,0 +1,12 @@
+{
+  "name": "dneustadt/majima-base-assets",
+  "version": "0.1.0",
+  "keywords": ["majima", "assets"],
+  "description": "Basic assets for majima plugins",
+  "homepage": "http://softcoder.de",
+  "license": "MIT",
+  "type": "majima-plugin",
+  "extra": {
+    "installer-name": "MajimaBaseAssets"
+  }
+}

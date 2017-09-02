@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: $color-quinary;
+  margin-bottom: 50px;
+  nav.row {
+    margin: 0;
+  }
+}
+
+footer {
+  background: $color-secondary;
+  color: $color-initial;
+  padding: 10px;
+}
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='url'],
+textarea,
+select {
+  border-radius: 0;
+}
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  border: 0;
+  &:hover, &:focus {
+    background: lighten($color-primary, 10);
+  }
+}
