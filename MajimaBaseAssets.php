@@ -22,7 +22,7 @@ class MajimaBaseAssets extends PluginAbstract
     /**
      * @var int
      */
-    private $priority = 0;
+    private $priority = -1;
 
     /**
      * @return int
